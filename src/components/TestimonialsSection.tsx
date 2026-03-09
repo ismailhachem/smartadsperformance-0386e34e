@@ -5,7 +5,7 @@ const testimonials = [
   {
     name: "Marcos Oliveira",
     role: "Dono de Restaurante",
-    text: "Antes da Smart Ads, meu delivery mal cobria os custos. Hoje faturo 12x mais e tenho fila de espera! Melhor investimento que fiz.",
+    text: "Antes da Smart Ads, meu delivery mal cobria os custos. Hoje faturo 4x mais e tenho fila de espera! Melhor investimento que fiz.",
     stars: 5,
   },
   {
