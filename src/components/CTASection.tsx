@@ -12,8 +12,8 @@ const CTASection = () => {
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true }}
-        >
+          viewport={{ once: true }}>
+          
           <h2 className="text-3xl md:text-5xl lg:text-6xl font-black text-primary-foreground mb-6 leading-tight">
             Pronto para parar de perder dinheiro e começar a{" "}
             <span className="text-accent">vender de verdade?</span>
@@ -24,11 +24,11 @@ const CTASection = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/5538999999999?text=Olá! Quero uma consultoria gratuita com a Smart Ads Performance!"
+
               target="_blank"
               rel="noopener noreferrer"
-              className="gradient-cta text-accent-foreground px-10 py-5 rounded-full font-black text-lg shadow-cta hover:scale-105 transition-transform flex items-center justify-center gap-3"
-            >
+              className="gradient-cta text-accent-foreground px-10 py-5 rounded-full font-black text-lg shadow-cta hover:scale-105 transition-transform flex items-center justify-center gap-3" href="https://wa.me/5538998820001?text=Ol\xE1! Quero uma consultoria gratuita com a Smart Ads Performance!">
+              
               <MessageCircle className="w-6 h-6" />
               Consultoria Gratuita via WhatsApp
               <ArrowRight className="w-5 h-5" />
@@ -40,8 +40,8 @@ const CTASection = () => {
           </p>
         </motion.div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default CTASection;

@@ -8,9 +8,9 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           <div>
             <img src={logo} alt="Smart Ads Performance" className="h-10 mb-4" />
-            <p className="text-background/60 leading-relaxed">
-              Agência de marketing digital especializada em performance.
-              Transformando negócios em Montes Claros desde 2018.
+            <p className="text-background/60 leading-relaxed">Agência de marketing digital especializada em performance. Transformando negócios em Montes Claros desde 2025.
+
+
             </p>
           </div>
           <div>
@@ -30,15 +30,15 @@ const Footer = () => {
                 <MapPin className="w-4 h-4 text-accent" />
                 Montes Claros, Minas Gerais
               </li>
-              <li className="flex items-center gap-2">
+              <li className="flex items-center gap-2">(38) 99882-0001
                 <Phone className="w-4 h-4 text-accent" />
                 (38) 99999-9999
               </li>
-              <li className="flex items-center gap-2">
+              <li className="flex items-center gap-2">smartadsperformance@gmail.com
                 <Mail className="w-4 h-4 text-accent" />
                 contato@smartadsperformance.com.br
               </li>
-              <li className="flex items-center gap-2">
+              <li className="flex items-center gap-2">@smartads.performance
                 <Instagram className="w-4 h-4 text-accent" />
                 @smartadsperformance
               </li>
@@ -49,8 +49,8 @@ const Footer = () => {
           © {new Date().getFullYear()} Smart Ads Performance. Todos os direitos reservados.
         </div>
       </div>
-    </footer>
-  );
+    </footer>);
+
 };
 
 export default Footer;

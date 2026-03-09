@@ -2,31 +2,31 @@ import { motion } from "framer-motion";
 import { TrendingUp, Users, DollarSign, Award } from "lucide-react";
 
 const results = [
-  {
-    icon: DollarSign,
-    metric: "478%",
-    label: "ROI para e-commerce local",
-    desc: "Loja de roupas em Montes Claros",
-  },
-  {
-    icon: Users,
-    metric: "3.200+",
-    label: "Leads gerados em 30 dias",
-    desc: "Clínica odontológica",
-  },
-  {
-    icon: TrendingUp,
-    metric: "12x",
-    label: "Aumento em faturamento",
-    desc: "Restaurante delivery",
-  },
-  {
-    icon: Award,
-    metric: "R$850K",
-    label: "Vendas em 90 dias",
-    desc: "Imobiliária regional",
-  },
-];
+{
+  icon: DollarSign,
+  metric: "478%",
+  label: "ROI para e-commerce local",
+  desc: "Loja de roupas em Montes Claros"
+},
+{
+  icon: Users,
+  metric: "3.200+",
+  label: "Leads gerados em 30 dias",
+  desc: "Clínica odontológica"
+},
+{
+  icon: TrendingUp,
+  metric: "12x",
+  label: "Aumento em faturamento",
+  desc: "Restaurante delivery"
+},
+{
+  icon: Award,
+  metric: "R$850K",
+  label: "Vendas em 90 dias",
+  desc: "Imobiliária regional"
+}];
+
 
 const ResultsSection = () => {
   return (
@@ -41,27 +41,27 @@ const ResultsSection = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center mb-16"
-        >
+          className="text-center mb-16">
+          
           <span className="text-sm font-bold uppercase tracking-widest text-accent">Resultados Reais</span>
           <h2 className="text-3xl md:text-5xl font-black text-primary-foreground mt-3 mb-4">
             Números que falam por si
           </h2>
-          <p className="text-primary-foreground/70 text-lg max-w-2xl mx-auto">
-            Nossos clientes em Montes Claros e região já comprovam: investir em marketing digital com a Smart Ads gera resultado.
+          <p className="text-primary-foreground/70 text-lg max-w-2xl mx-auto">Nossos clientes em Montes Claros  já comprovam: investir em marketing digital com a Smart Ads Performance gera resultado.
+
           </p>
         </motion.div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {results.map((item, i) => (
-            <motion.div
-              key={i}
-              initial={{ opacity: 0, scale: 0.9 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              transition={{ delay: i * 0.1 }}
-              className="bg-primary-foreground/5 backdrop-blur-sm border border-primary-foreground/10 rounded-2xl p-8 text-center hover:bg-primary-foreground/10 transition-colors"
-            >
+          {results.map((item, i) =>
+          <motion.div
+            key={i}
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ delay: i * 0.1 }}
+            className="bg-primary-foreground/5 backdrop-blur-sm border border-primary-foreground/10 rounded-2xl p-8 text-center hover:bg-primary-foreground/10 transition-colors">
+            
               <div className="w-12 h-12 gradient-cta rounded-xl flex items-center justify-center mx-auto mb-4">
                 <item.icon className="w-6 h-6 text-accent-foreground" />
               </div>
@@ -69,11 +69,11 @@ const ResultsSection = () => {
               <div className="text-primary-foreground font-semibold mb-1">{item.label}</div>
               <div className="text-primary-foreground/50 text-sm">{item.desc}</div>
             </motion.div>
-          ))}
+          )}
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default ResultsSection;
