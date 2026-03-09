@@ -10,14 +10,14 @@ const results = [
 },
 {
   icon: Users,
-  metric: "3.200+",
+  metric: "500+",
   label: "Leads gerados em 30 dias",
   desc: "Clínica odontológica"
 },
 {
   icon: TrendingUp,
-  metric: "12x",
-  label: "Aumento em faturamento",
+  metric: "4x",
+  label: "Aumento em faturamento (em 120 dias)",
   desc: "Restaurante delivery"
 },
 {

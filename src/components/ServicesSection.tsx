@@ -9,8 +9,8 @@ const services = [
 },
 {
   icon: BarChart3,
-  title: "Análise de Dados",
-  description: "Dashboards em tempo real, métricas que importam e decisões baseadas em dados reais do seu negócio."
+  title: "Consultoria Estratégica de Growth",
+  description: "Desenvolvemos toda a estratégia para posicionar sua marca no digital com autoridade, desde o diagnóstico até a solução."
 },
 {
   icon: Megaphone,
