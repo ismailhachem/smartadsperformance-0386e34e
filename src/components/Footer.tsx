@@ -31,7 +31,7 @@ Montes Claros desde 2025.
                 Montes Claros, Minas Gerais
               </li>
               <li className="flex items-center gap-2">(38) 99882-0001
-                <Phone className="w-4 h-4 text-accent" />
+(38) 99999-9999<Phone className="w-4 h-4 text-accent" />
                 (38) 99999-9999
               </li>
               <li className="flex items-center gap-2">smartadsperformance@gmail.com
