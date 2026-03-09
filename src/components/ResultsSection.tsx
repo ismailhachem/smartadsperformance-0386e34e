@@ -10,7 +10,7 @@ const results = [
 },
 {
   icon: Users,
-  metric: "3.200+",
+  metric: "500+",
   label: "Leads gerados em 30 dias",
   desc: "Clínica odontológica"
 },

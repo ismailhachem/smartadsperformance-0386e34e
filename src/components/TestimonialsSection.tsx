@@ -5,13 +5,13 @@ const testimonials = [
   {
     name: "Marcos Oliveira",
     role: "Dono de Restaurante",
-    text: "Antes da Smart Ads, meu delivery mal cobria os custos. Hoje faturo 4x mais e tenho fila de espera! Melhor investimento que fiz.",
+    text: "Antes da Smart Ads, meu delivery mal cobria os custos. Hoje faturo 4 mais e tenho fila de espera! Melhor investimento que fiz.",
     stars: 5,
   },
   {
     name: "Dra. Camila Santos",
     role: "Dentista",
-    text: "Em 30 dias geraram mais de 3.000 leads qualificados para minha clínica. Minha agenda nunca esteve tão cheia. Equipe sensacional!",
+    text: "Em 30 dias geraram mais de 350 leads qualificados para minha clínica. Minha agenda nunca esteve tão cheia. Equipe sensacional!",
     stars: 5,
   },
   {
