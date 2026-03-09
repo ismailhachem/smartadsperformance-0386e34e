@@ -8,9 +8,9 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           <div>
             <img src={logo} alt="Smart Ads Performance" className="h-10 mb-4" />
-            <p className="text-background/60 leading-relaxed">Agência de marketing digital especializada em performance. Transformando negócios em Montes Claros desde 2025.
-
-
+            <p className="text-background/60 leading-relaxed text-left">Agência de marketing digital especializada 
+em performance. Transformando negócios em 
+Montes Claros desde 2025.
             </p>
           </div>
           <div>
